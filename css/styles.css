@@ -17,6 +17,8 @@ img {
 h2 {
   font-family: 'Maven Pro', sans-serif;
   text-align: center;
+  padding: 30px 0;
+  margin: 0;
 }
 
 h3 {
@@ -25,6 +27,7 @@ h3 {
 
 p{
   font-family: 'Quattrocento', serif;
+  margin: 0;
 }
 
 a{
@@ -75,6 +78,23 @@ header {
 .cta-light {
   background-color: var(--light);
   color: var(--green);
+}
+
+.section-intro {
+  margin: 70px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.fruit-liste {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.fruit {
+  max-width: 30px;
+  width: 30px;
 }
 
 font-family: 'Maven Pro', sans-serif;  400-900
