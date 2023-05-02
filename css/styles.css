@@ -1,9 +1,35 @@
+:root {
+  --green: #7db96f;
+  --light: #fff;
+}
+
 body {
   max-width: 380px;
   margin: auto;
+  background: #ddd;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  border-top: solid var(--green) 8px;
+  background-image: url(../img/background.webp);
+  padding: 30px;
+  text-align: center;
+}
+
+.title-box {
+  margin: auto;
+  padding: 30px 60px;
+  background-color: #ffffffd9;
+}
+
+.slogan {
+  color: var(--green);
+}
+
+.cta-container {
 }
