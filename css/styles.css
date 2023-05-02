@@ -6,7 +6,7 @@
 body {
   max-width: 380px;
   margin: auto;
-  background: #ddd;
+  background: var(--light);
 }
 
 img {
@@ -14,22 +14,69 @@ img {
   max-width: 100%;
 }
 
+h2 {
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Sriracha', cursive;
+}
+
+p{
+  font-family: 'Quattrocento', serif;
+}
+
+a{
+  font-family: 'Maven Pro', sans-serif;
+}
+
 header {
   border-top: solid var(--green) 8px;
   background-image: url(../img/background.webp);
+  background-size: 105%;
+  background-repeat: no-repeat;
   padding: 30px;
   text-align: center;
 }
 
 .title-box {
   margin: auto;
+  margin-bottom: 20px;
   padding: 30px 60px;
   background-color: #ffffffd9;
 }
 
 .slogan {
   color: var(--green);
+  font-family: 'Quattrocento', serif;
+  font-size: 19px;
+  margin: 0;
 }
 
 .cta-container {
+  display: flex;
+  flex-direction: column;
 }
+
+.cta {
+  border-radius: 15px;
+  margin: 10px auto;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.cta-green {
+  background-color: var(--green);
+  color: var(--light);
+}
+
+.cta-light {
+  background-color: var(--light);
+  color: var(--green);
+}
+
+font-family: 'Maven Pro', sans-serif;  400-900
+font-family: 'Quattrocento', serif; 400+700
+font-family: 'Sriracha', cursive;
