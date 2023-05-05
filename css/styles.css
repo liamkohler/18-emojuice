@@ -23,6 +23,8 @@ h2 {
 
 h3 {
   font-family: 'Sriracha', cursive;
+  margin: 0;
+  font-size: 30px;
 }
 
 p{
@@ -95,6 +97,55 @@ header {
 .fruit {
   max-width: 30px;
   width: 30px;
+}
+
+.product-liste {
+  background-color: var(--green);
+  padding-bottom: 10px;
+}
+
+.product-liste h2 {
+  color: var(--light);
+  font-weight: 600;
+  padding: 0;
+}
+
+.product-liste img {
+  max-width: 80px;
+  width: 100%;
+}
+
+.product {
+  background-color: var(--light);
+  border-radius: 20px;
+  margin: 40px 30px;
+  padding: 40px;
+  padding-bottom: 30px;
+}
+
+.product-banane {
+  background-color: #fcf7d6;
+}
+
+.product-kiwi {
+  background-color: #d0f1ae;
+}
+
+.product-cafe {
+  background-color: #cdc4b0;
+}
+
+.product-fraise {
+  background-color: #e2a2b1;
+}
+
+.product p {
+  opacity: 0.5;
+}
+
+.product a {
+  color: #000;
+  font-weight: 600;
 }
 
 font-family: 'Maven Pro', sans-serif;  400-900
