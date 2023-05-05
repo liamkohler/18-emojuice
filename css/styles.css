@@ -17,8 +17,13 @@ img {
 h2 {
   font-family: 'Maven Pro', sans-serif;
   text-align: center;
-  padding: 30px 0;
-  margin: 0;
+  padding: 0;
+  margin: 40px 0;
+}
+
+main h2,
+footer h2 {
+  color: var(--green);
 }
 
 h3 {
@@ -30,6 +35,14 @@ h3 {
 p{
   font-family: 'Quattrocento', serif;
   margin: 0;
+}
+
+footer p {
+  text-align: center;
+  color: var(--green);
+  font-family: 'Maven Pro', sans-serif;
+  margin: 60px 90px 5px 90px;
+  font-size: 10px;
 }
 
 a{
@@ -72,6 +85,10 @@ header {
   font-size: 20px;
 }
 
+footer .cta {
+  margin: 0 auto 15px auto;
+}
+
 .cta-green {
   background-color: var(--green);
   color: var(--light);
@@ -101,7 +118,7 @@ header {
 
 .product-liste {
   background-color: var(--green);
-  padding-bottom: 10px;
+  padding: 5px 0 10px 0;
 }
 
 .product-liste h2 {
@@ -146,6 +163,13 @@ header {
 .product a {
   color: #000;
   font-weight: 600;
+}
+
+.product-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 30px;
 }
 
 font-family: 'Maven Pro', sans-serif;  400-900
